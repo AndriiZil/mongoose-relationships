@@ -1,0 +1,10 @@
+.idea
+one-to-one-relationship/node_modules
+one-to-one-relationship/.env
+one-to-one-relationship/src/.env
+one-to-many-relationship/node_modules
+one-to-many-relationship//src.env
+one-to-many-relationship/.env
+many-to-many-relationship/node_modules
+many-to-many-relationship/.env
+many-to-many-relationship/src/.env
