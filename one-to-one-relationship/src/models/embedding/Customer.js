@@ -3,8 +3,8 @@ const { Schema, model } = require('mongoose');
 const CustomerSchema = new Schema({
     name: String,
     age: Number,
-    gender: String
-})
+    gender: String,
+});
 
 const Customer = model('CustomerE', CustomerSchema);
 

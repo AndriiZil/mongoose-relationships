@@ -1,5 +1,10 @@
 const mongoose = require('mongoose');
-require('dotenv').config();
+
+const { error } = require('dotenv').config({ path: './src/.env'});
+
+if (error) {
+    throw new Error('ENV file should be specified.');
+}
 
 mongoose.set('debug', true);
 
